@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form method="post" id="myForm" action="/upload" enctype="multipart/form-data">
+    <h1>分块上传（需大于1MB）</h1>
+    <input type="file" id="myFiles" multiple>
+    <!-- 上传的文件列表 -->
+    <table id="upload-list">
+      <thead>
+        <tr>
+          <th width="40%">文件名</th>
+          <th width="15%">文件类型</th>
+          <th width="15%">文件大小</th>
+          <th width="15%">上传进度</th>
+          <th width="15%">
+            <!-- <input type="button" id="upload-all-btn" value="全部上传"> -->
+          </th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+
+      </tbody>
+    </table>
+  </form>
+  <script src="./script.js"></script>
+</body>
+
+</html>

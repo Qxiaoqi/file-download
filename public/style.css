@@ -1,0 +1,33 @@
+form {
+  margin: 50px auto;
+  width: 800px;
+}
+
+input[type="button"] {
+  padding: 6px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #2d8cf0;
+}
+
+table {
+  /* display: none; */
+  margin-top: 15px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+table th {
+  color: #666;
+}
+
+table td,
+table th {
+  padding: 5px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px;
+}
